@@ -6,10 +6,10 @@ import { ArrowRight, Menu, X } from "lucide-react";
 import Link from "next/link";
 
 const links = [
-  { label: "Home", href: "#home" },
-  { label: "Services", href: "#services" },
-  { label: "Our approach", href: "#approach" },
-  { label: "About", href: "#about" },
+  { label: "Home", href: "/" },
+  { label: "Services", href: "/#services" },
+  { label: "Our approach", href: "/#approach" },
+  { label: "About", href: "/#about" },
 ];
 
 export default function Header() {
@@ -71,7 +71,6 @@ export default function Header() {
       </div>
 
       {/* Mobile menu, only shown when open */}
-      {/* Mobile menu, always rendered, animated open/closed */}
       <div
         className={`grid transition-all duration-300 ease-out md:hidden ${
           open ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
