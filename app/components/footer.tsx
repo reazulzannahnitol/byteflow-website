@@ -51,7 +51,7 @@ export default function Footer() {
           <h3 className="text-sm font-semibold text-white">Our Address</h3>
 
           <p className="text-xs leading-6 text-muted">
-            House #202, Road #2, Baridhara DOHS, Gulshan, Dhaka Cant.
+            House #202, Road #2, Baridhara DOHS, Dhaka-1206, Bangladesh
           </p>
         </div>
 

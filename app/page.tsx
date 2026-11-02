@@ -7,6 +7,7 @@ import {
   ArrowRight,
   Braces,
   Code2,
+  GraduationCap,
   Globe2,
   Layers3,
   MonitorSmartphone,
@@ -42,6 +43,15 @@ const services = [
       "Practical technology guidance and streamlined digital workflows designed around real business needs.",
     tags: ["Consulting", "Domain", "Hosting", "VPN"],
     href: "/services/itsolutions",
+  },
+  {
+    number: "04",
+    icon: GraduationCap,
+    title: "Training",
+    description:
+      "Hands-on courses in design, video editing, marketing, and web development, taught through real projects.",
+    tags: ["Design", "Video", "Marketing", "Web"],
+    href: "/services/training",
   },
 ];
 
